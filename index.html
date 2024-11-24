@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF to Audio System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>PDF to Audio System</h1>
+        <input type="file" id="pdfFile" accept=".pdf">
+        <button id="readPdf">Read PDF</button>
+        <textarea id="textOutput" placeholder="Extracted text will appear here..." readonly></textarea>
+        <button id="playAudio">Play Audio</button>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.16.105/pdf.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
